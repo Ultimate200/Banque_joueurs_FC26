@@ -10,7 +10,7 @@
     "value": "6.5M €",
     "club": "RC Lens",
     "flag": "https://flagcdn.com/w20/sn.png",
-    "image": "./Images/Sima.png"
+    "image": "../Images/Sima.png"
   },
   {
     "name": "Robin Risser",
@@ -400,7 +400,7 @@
     "value": "15M €",
     "club": "Wolves",
     "flag": "https://flagcdn.com/w20/co.png",
-    "image": "/Images/Arias.png"
+    "image": "../Images/Arias.png"
   },
   {
     "name": "André",
@@ -413,7 +413,7 @@
     "value": "19.5M €",
     "club": "Wolves",
     "flag": "https://flagcdn.com/w20/br.png",
-    "image": "/Images/André.png"
+    "image": "../Images/André.png"
   },
   {
     "name": "Malang Sarr",
@@ -426,7 +426,7 @@
     "value": "8.5M €",
     "club": "RC Lens",
     "flag": "https://flagcdn.com/w20/fr.png",
-    "image": "/Images/Sarr.png"
+    "image": "../Images/Sarr.png"
   },
   {
     "name": "Florian Thauvin",
@@ -439,7 +439,7 @@
     "value": "14M €",
     "club": "RC Lens",
     "flag": "https://flagcdn.com/w20/fr.png",
-    "image": "/Images/Thauvin.png"
+    "image": "../Images/Thauvin.png"
   },
   {
     "name": "Jhoanner Chávez",
@@ -452,7 +452,7 @@
     "value": "2.8M €",
     "club": "RC Lens",
     "flag": "https://flagcdn.com/w20/ec.png",
-    "image": "/Images/Chávez.png"
+    "image": "../Images/Chávez.png"
   },
   {
     "name": "Ilan Jourdren",
@@ -465,7 +465,7 @@
     "value": "875k €",
     "club": "RC Lens",
     "flag": "https://flagcdn.com/w20/fr.png",
-    "image": "/Images/Jourdren.png"
+    "image": "../Images/Jourdren.png"
   },
   {
     "name": "Toti",
@@ -478,7 +478,7 @@
     "value": "7M €",
     "club": "Wolves",
     "flag": "https://flagcdn.com/w20/pt.png",
-    "image": "/Images/Toti.png"
+    "image": "../Images/Toti.png"
   },
   {
     "name": "Yerson Mosquera",
@@ -491,7 +491,7 @@
     "value": "3.4M €",
     "club": "Wolves",
     "flag": "https://flagcdn.com/w20/co.png",
-    "image": "/Images/Mosquera.png"
+    "image": "../Images/Mosquera.png"
   },
   {
     "name": "Allan Saint-Maximin",
@@ -504,7 +504,7 @@
     "value": "10.5M €",
     "club": "RC Lens",
     "flag": "https://flagcdn.com/w20/fr.png",
-    "image": "/Images/Maxi.png"
+    "image": "../Images/Maxi.png"
   },
   {
     "name": "Hugo Bueno",
@@ -517,7 +517,7 @@
     "value": "6.5M €",
     "club": "Wolves",
     "flag": "https://flagcdn.com/w20/es.png",
-    "image": "/Images/Bueno.png"
+    "image": "../Images/Bueno.png"
   },
   {
     "name": "Samson Baidoo",
@@ -530,7 +530,7 @@
     "value": "12M €",
     "club": "RC Lens",
     "flag": "https://flagcdn.com/w20/at.png",
-    "image": "/Images/Baidoo.png"
+    "image": "../Images/Baidoo.png"
   },
   {
     "name": "Saud Abdulhamid",
@@ -543,7 +543,7 @@
     "value": "6.5M €",
     "club": "RC Lens",
     "flag": "https://flagcdn.com/w20/sa.png",
-    "image": "/Images/Saud.png"
+    "image": "../Images/Saud.png"
   },
   {
     "name": "João Gomes",
@@ -556,7 +556,7 @@
     "value": "19.5M €",
     "club": "Wolves",
     "flag": "https://flagcdn.com/w20/br.png",
-    "image": "/Images/João_Gomes.png"
+    "image": "../Images/João_Gomes.png"
   },
   {
     "name": "Andrija Bulatović",
@@ -569,7 +569,7 @@
     "value": "3.2M €",
     "club": "RC Lens",
     "flag": "https://flagcdn.com/w20/me.png",
-    "image": "/Images/Bulatović.png"
+    "image": "../Images/Bulatović.png"
   },
   {
     "name": "Toluwalase Arokodare",
@@ -582,7 +582,7 @@
     "value": "28M €",
     "club": "Wolves",
     "flag": "https://flagcdn.com/w20/ng.png",
-    "image": "/Images/Tolu.png"
+    "image": "../Images/Tolu.png"
   },
   {
     "name": "Ladislav Krejčí",
@@ -595,7 +595,7 @@
     "value": "17.5M €",
     "club": "Wolves",
     "flag": "https://flagcdn.com/w20/cz.png",
-    "image": "/Images/Ladislav.png"
+    "image": "../Images/Ladislav.png"
   },
   {
     "name": "Santiago Bueno",
@@ -608,7 +608,7 @@
     "value": "8.5M €",
     "club": "Wolves",
     "flag": "https://flagcdn.com/w20/uy.png",
-    "image": "/Images/SBueno.png"
+    "image": "../Images/SBueno.png"
   },
   {
     "name": "Jackson Tchatchoua",
@@ -621,7 +621,7 @@
     "value": "8M €",
     "club": "Wolves",
     "flag": "https://flagcdn.com/w20/cm.png",
-    "image": "/Images/Tchatchoua.png"
+    "image": "../Images/Tchatchoua.png"
   },
   {
     "name": "Fer López",
@@ -634,7 +634,7 @@
     "value": "7M €",
     "club": "Wolves",
     "flag": "https://flagcdn.com/w20/es.png",
-    "image": "/Images/Fer.png"
+    "image": "../Images/Fer.png"
   },
   {
     "name": "Jean-Ricner Bellegarde",
@@ -647,7 +647,7 @@
     "value": "6.5M €",
     "club": "Wolves",
     "flag": "https://flagcdn.com/w20/ht.png",
-    "image": "/Images/Bellegarde.png"
+    "image": "../Images/Bellegarde.png"
   },
   {
     "name": "David Møller Wolfe",
@@ -660,7 +660,7 @@
     "value": "4.3M €",
     "club": "Wolves",
     "flag": "https://flagcdn.com/w20/no.png",
-    "image": "/Images/Wolfe.png"
+    "image": "../Images/Wolfe.png"
   },
   {
     "name": "Matt Doherty",
@@ -673,7 +673,7 @@
     "value": "2M €",
     "club": "Wolves",
     "flag": "https://flagcdn.com/w20/ie.png",
-    "image": "/Images/Doherty.png"
+    "image": "../Images/Doherty.png"
   },
   {
     "name": "Tawanda Chirewa",
@@ -686,7 +686,7 @@
     "value": "1.4M €",
     "club": "Wolves",
     "flag": "https://flagcdn.com/w20/zw.png",
-    "image": "/Images/Chirewa.png"
+    "image": "../Images/Chirewa.png"
   },
   {
     "name": "Enso González",
@@ -699,7 +699,7 @@
     "value": "1.2M €",
     "club": "Wolves",
     "flag": "https://flagcdn.com/w20/py.png",
-    "image": "/Images/Enso.png"
+    "image": "../Images/Enso.png"
   },
   {
     "name": "Daniel Bentley",
@@ -712,7 +712,7 @@
     "value": "1M €",
     "club": "Wolves",
     "flag": "https://flagcdn.com/w20/gb-eng.png",
-    "image": "/Images/Bentley.png"
+    "image": "../Images/Bentley.png"
   },
   {
     "name": "Mateus Mané",
@@ -725,7 +725,7 @@
     "value": "625k €",
     "club": "Wolves",
     "flag": "https://flagcdn.com/w20/gb-eng.png",
-    "image": "/Images/Mané.png"
+    "image": "../Images/Mané.png"
   },
   {
     "name": "Saša Kalajdžić",
@@ -738,7 +738,7 @@
     "value": "4.6M €",
     "club": "Wolves",
     "flag": "https://flagcdn.com/w20/at.png",
-    "image": "/Images/Kalajdžić.png"
+    "image": "../Images/Kalajdžić.png"
   },
   {
     "name": "Tommy Doyle",
@@ -751,7 +751,7 @@
     "value": "4.6M €",
     "club": "Wolves",
     "flag": "https://flagcdn.com/w20/gb-eng.png",
-    "image": "/Images/TDoyle.png"
+    "image": "../Images/TDoyle.png"
   },
   {
     "name": "Nasser Djiga",
@@ -764,7 +764,7 @@
     "value": "3.3M €",
     "club": "Wolves",
     "flag": "https://flagcdn.com/w20/bf.png",
-    "image": "/Images/Djiga.png"
+    "image": "../Images/Djiga.png"
   },
   {
     "name": "Pedro Lima",
@@ -777,7 +777,7 @@
     "value": "2.7M €",
     "club": "Wolves",
     "flag": "https://flagcdn.com/w20/br.png",
-    "image": "/Images/PLima.png"
+    "image": "../Images/PLima.png"
   },
   {
     "name": "Boubacar Traoré",
@@ -790,7 +790,7 @@
     "value": "2.6M €",
     "club": "Wolves",
     "flag": "https://flagcdn.com/w20/ml.png",
-    "image": "/Images/BoTraoré.png"
+    "image": "../Images/BoTraoré.png"
   },
   {
     "name": "Nigel Lonwijk",
@@ -803,7 +803,7 @@
     "value": "1.9M €",
     "club": "Wolves",
     "flag": "https://flagcdn.com/w20/sr.png",
-    "image": "/Images/Lonwijk.png"
+    "image": "../Images/Lonwijk.png"
   },
   {
     "name": "Dexter Lembikisa",
@@ -816,7 +816,7 @@
     "value": "1M €",
     "club": "Wolves",
     "flag": "https://flagcdn.com/w20/jm.png",
-    "image": "/Images/Lembikisa.png"
+    "image": "../Images/Lembikisa.png"
   },
   {
     "name": "Harvey Griffiths",
@@ -829,7 +829,7 @@
     "value": "425k €",
     "club": "Wolves",
     "flag": "https://flagcdn.com/w20/gb-eng.png",
-    "image": "/Images/HGriffiths.png"
+    "image": "../Images/HGriffiths.png"
   },
   {
     "name": "Facundo Medina",
@@ -855,7 +855,7 @@
     "value": "6.5M €",
     "club": "RC Lens",
     "flag": "https://flagcdn.com/w20/bf.png",
-    "image": "/Images/HKoffi.png"
+    "image": "../Images/HKoffi.png"
   },
   {
     "name": "Rémy Labeau Lascary",
@@ -868,7 +868,7 @@
     "value": "4.8M €",
     "club": "RC Lens",
     "flag": "https://flagcdn.com/w20/fr.png",
-    "image": "/Images/Lascary.png"
+    "image": "../Images/Lascary.png"
   },
   {
     "name": "Goduine Koyalipou",
@@ -881,7 +881,7 @@
     "value": "3.3M €",
     "club": "RC Lens",
     "flag": "https://flagcdn.com/w20/cf.png",
-    "image": "/Images/Koyalipou.png"
+    "image": "../Images/Koyalipou.png"
   },
   {
     "name": "Angelo Fulgini",
@@ -894,7 +894,7 @@
     "value": "3.1M €",
     "club": "RC Lens",
     "flag": "https://flagcdn.com/w20/nc.png",
-    "image": "/Images/AFulgini.png"
+    "image": "../Images/AFulgini.png"
   },
   {
     "name": "Jeremy Agbonifo",
@@ -907,7 +907,7 @@
     "value": "2M €",
     "club": "RC Lens",
     "flag": "https://flagcdn.com/w20/se.png",
-    "image": "/Images/JAgbonifo.png"
+    "image": "../Images/JAgbonifo.png"
   },
   {
     "name": "Mattia Fortin",
@@ -920,6 +920,6 @@
     "value": "1.7M €",
     "club": "RC Lens",
     "flag": "https://flagcdn.com/w20/it.png",
-    "image": "/Images/MFortin.png"
+    "image": "../Images/MFortin.png"
   } 
 ]

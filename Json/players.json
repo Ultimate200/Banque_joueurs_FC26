@@ -10,7 +10,7 @@
     "value": "6.5M €",
     "club": "RC Lens",
     "flag": "https://flagcdn.com/w20/sn.png",
-    "image": "../Images/Sima.png"
+    "image": "./Images/Sima.png"
   },
   {
     "name": "Robin Risser",

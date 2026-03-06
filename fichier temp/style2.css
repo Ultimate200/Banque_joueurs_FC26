@@ -1,0 +1,372 @@
+:root {
+    --bg: #f2f4f7;
+    --card: #ffffff;
+    --text: #1f2933;
+    --text-muted: #6b7280;
+    --border: #e5e7eb;
+
+    --accent: #2563eb;
+
+    --badge-value: #2563eb;
+    --badge-foot: #16a34a;
+
+    --low: #dc2626;
+    --mid-low: #ea580c;
+    --mid: #f59e0b;
+    --high: #16a34a;
+}
+
+/* MODE SOMBRE */
+body.dark {
+    --bg: #0f172a;
+    --card: #1e293b;
+    --text: #e5e7eb;
+    --text-muted: #9ca3af;
+    --border: #334155;
+
+    --accent: #3b82f6;
+
+    --badge-value: #3b82f6;
+    --badge-foot: #22c55e;
+
+    --low: #ef4444;
+    --mid-low: #fb923c;
+    --mid: #facc15;
+    --high: #22c55e;
+}
+
+body.dark .search-bar input,
+body.dark .search-bar select {
+    background: #2d3f55;
+    border-color: #3d5269;
+}
+
+body.dark .search-bar select option {
+    background: #2d3f55;
+}
+
+/* Général */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: var(--bg);
+    color: var(--text);
+    transition: background 0.3s, color 0.3s;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+}
+
+/* Bouton */
+#themeToggle {
+    padding: 8px 14px;
+    border-radius: 8px;
+    border: none;
+    background: var(--card);
+    color: var(--text);
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.1);
+    transition: background 0.3s, color 0.3s, transform 0.2s;
+}
+
+#themeToggle:hover {
+    transform: translateY(-1px);
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Barre de recherche et filtre */
+.search-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.search-bar input, .search-bar select {
+    padding: 10px 12px;
+    font-size: 1em;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    outline: none;
+    background: var(--card);
+    color: var(--text);
+    transition: background 0.3s, color 0.3s, border-color 0.3s, box-shadow 0.2s;
+}
+
+.search-bar input::placeholder {
+    color: var(--text-muted);
+}
+
+.search-bar select option {
+    background: var(--card);
+    color: var(--text);
+}
+
+.search-bar input:focus, .search-bar select:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 5px rgba(59, 130, 246, 0.3);
+}
+
+.filters {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.search-bar input {
+    min-width: 260px;
+}
+
+@media (max-width: 700px) {
+    .search-bar {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .search-bar input {
+        width: 100%;
+    }
+}
+
+/* En-têtes */
+.table-header {
+    display: flex;
+    font-weight: bold;
+    padding: 12px 15px;
+    border-bottom: 1px solid var(--border);
+    background: var(--card);
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+    transition: background 0.3s, border 0.3s;
+}
+
+.header-item {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 600;
+    color: var(--text);
+    cursor: pointer;
+    user-select: none;
+}
+
+.header-item.right {
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.header-item:hover {
+    color: var(--accent);
+}
+
+.sort-arrow {
+    font-size: 0.9em;
+    color: #007bff;
+}
+
+/* Grille de joueurs */
+.players-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* Ligne joueur */
+.player-row {
+    display: flex;
+    align-items: center;
+    background: var(--card);
+    transition: background 0.3s, box-shadow 0.3s;
+    padding: 12px 15px;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.05);
+    transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.player-row:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.player-row img.player-face {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+    border: 2px solid #007bff33;
+}
+
+/* Colonnes joueur */
+.player-cell {
+    flex: 2;
+}
+
+.player-cell.right {
+    flex: 1;
+    text-align: right;
+}
+
+.player-club {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.player-club img {
+    width: 18px;
+    height: 18px;
+    border-radius: 3px;
+}
+
+/* Nom joueur */
+.player-name {
+    font-weight: 600;
+    color: var(--text);
+    font-size: 1em;
+}
+
+.player-name-block {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    min-height: 32px;
+}
+
+
+.player-identity {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.player-sub {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.8em;
+    color: var(--text-muted);
+}
+/* Responsive */
+@media(max-width: 900px){
+    .player-row {
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+    .player-cell, .player-cell.right {
+        flex: 1 1 45%;
+        text-align: left !important;
+    }
+}
+
+@media(max-width: 600px){
+    .player-cell, .player-cell.right {
+        flex: 1 1 100%;
+    }
+}
+
+/* Barres pour Note et Potentiel */
+.stat-bar {
+    display: inline-block;
+    width: 50px;      /* largeur fixe de la barre */
+    padding: 2px 6px;
+    border-radius: 6px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    transition: background 0.3s;
+}
+
+/* Dégradé pour les valeurs */
+.stat-bar.low { background-color: #e74c3c; }      /* rouge */
+.stat-bar.mid-low { background-color: #e67e22; }  /* orange */
+.stat-bar.mid { background-color: #f1c40f; }      /* jaune */
+.stat-bar.high { background-color: #2ecc71; }     /* vert */
+
+.player-info {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.85em;
+    color: #777;
+}
+
+.player-position {
+    padding: 2px 6px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.75em;
+    color: white;
+}
+
+/* Attaquants – bleu */
+.pos-att {
+    background: #2563eb;
+}
+
+/* Milieux – vert */
+.pos-mid {
+    background: #16a34a;
+}
+
+/* Défenseurs – jaune */
+.pos-def {
+    background: #facc15;
+    color: #1f2933;
+}
+
+/* Gardiens – orange */
+.pos-gk {
+    background: #f97316;
+}
+
+/* DRAPEAU + TOOLTIP */
+.flag-wrapper {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+
+.player-flag {
+    width: 20px;
+    height: 14px;
+    border-radius: 2px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+/* TOOLTIP */
+.tooltiptext {
+    position: absolute;
+    bottom: 140%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #111;
+    color: #fff;
+    padding: 4px 7px;
+    border-radius: 5px;
+    font-size: 0.75em;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+    z-index: 999;
+}
+
+/* AFFICHAGE AU SURVOL */
+.flag-wrapper:hover .tooltiptext {
+    opacity: 1;
+}
+

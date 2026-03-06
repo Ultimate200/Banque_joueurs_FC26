@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Répertoire Joueurs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="top-bar">
+    <button id="themeToggle">☀️ Mode Clair</button>
+    </div>
+<div class="search-bar">
+    <div class="filters">
+        <select id="footFilter">
+            <option value="all">Pied (tous)</option>
+            <option value="Droit">Droit</option>
+            <option value="Gauche">Gauche</option>
+        </select>
+
+        <select id="clubFilter">
+            <option value="all">Tous les clubs</option>
+        </select>
+
+        <select id="nationalityFilter">
+            <option value="all">Toutes les nationalités</option>
+        </select>
+
+        <select id="positionFilter">
+            <option value="all">Tous les postes</option>
+        </select>
+    </div>
+
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Rechercher un joueur..."
+    >
+</div>
+    
+
+    <div class="table-header">
+        <div class="header-item" onclick="sortPlayers('name')">
+            Nom <span class="sort-arrow" id="arrow-name"></span>
+        </div>
+        <div class="header-item" onclick="sortPlayers('club')">
+            Club <span class="sort-arrow" id="arrow-club"></span>
+        </div>
+        <div class="header-item" onclick="sortPlayers('value')">
+            Valeur <span class="sort-arrow" id="arrow-value"></span>
+        </div>
+        <div class="header-item" onclick="sortPlayers('foot')">
+            Pied <span class="sort-arrow" id="arrow-foot"></span>
+        </div>
+        <div class="header-item right" onclick="sortPlayers('age')">
+            Âge <span id="arrow-age"></span>
+        </div>
+        <div class="header-item right" onclick="sortPlayers('rating')">
+            Note <span id="arrow-rating"></span>
+        </div>
+        <div class="header-item right" onclick="sortPlayers('potential')">
+            Potentiel <span id="arrow-potential"></span>
+        </div>
+    </div>
+
+    <div id="playersGrid"></div>
+        <!-- Les joueurs seront injectés ici par JS -->
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Répertoire Joueurs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="top-bar">
+    <button id="themeToggle">☀️ Mode Clair</button>
+    </div>
+<div class="search-bar">
+    <div class="filters">
+        <select id="footFilter">
+            <option value="all">Pied (tous)</option>
+            <option value="Droit">Droit</option>
+            <option value="Gauche">Gauche</option>
+        </select>
+        
+        <select id="clubFilter">
+            <option value="all">Tous les clubs</option> 
+        </select>
+
+        <select id="nationalityFilter">
+            <option value="all">Toutes les nationalités</option>
+        </select>
+
+        <select id="positionFilter">
+            <option value="all">Tous les postes</option>
+        </select>
+    </div>
+
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Rechercher un joueur..."
+    >
+</div>
+    
+
+    <div class="table-header">
+        <div class="header-item" onclick="sortPlayers('name')">
+            Nom <span class="sort-arrow" id="arrow-name"></span>
+        </div>
+        <div class="header-item" onclick="sortPlayers('club')">
+            Club <span class="sort-arrow" id="arrow-club"></span>
+        </div>
+        <div class="header-item" onclick="sortPlayers('value')">
+            Valeur <span class="sort-arrow" id="arrow-value"></span>
+        </div>
+        <div class="header-item" onclick="sortPlayers('foot')">
+            Pied <span class="sort-arrow" id="arrow-foot"></span>
+        </div>
+        <div class="header-item right" onclick="sortPlayers('age')">
+            Âge <span id="arrow-age"></span>
+        </div>
+        <div class="header-item right" onclick="sortPlayers('rating')">
+            Note <span id="arrow-rating"></span>
+        </div>
+        <div class="header-item right" onclick="sortPlayers('potential')">
+            Potentiel <span id="arrow-potential"></span>
+        </div>
+    </div>
+
+    <div id="playersGrid"></div>
+        <!-- Les joueurs seront injectés ici par JS -->
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

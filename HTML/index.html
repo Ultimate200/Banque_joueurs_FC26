@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Répertoire Joueurs</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+<div class="container">
+    <div class="top-bar">
+        <button id="themeToggle">☀️ Mode Clair</button>
+    </div>
+    <div class="search-bar">
+        <div class="filters">
+            <!-- Pied : select natif (seulement 3 options, pas besoin de recherche) -->
+            <select id="footFilter">
+                <option value="all">Pied (tous)</option>
+                <option value="Droit">Droit</option>
+                <option value="Gauche">Gauche</option>
+            </select>
+
+            <!-- Dropdowns custom avec recherche -->
+            <div class="custom-select" id="clubDropdown">
+                <div class="cs-trigger">
+                    <span class="cs-label">Tous les clubs</span>
+                    <span class="cs-arrow">▾</span>
+                </div>
+                <div class="cs-panel">
+                    <input class="cs-search" type="text" placeholder="Rechercher...">
+                    <ul class="cs-list"></ul>
+                </div>
+            </div>
+
+            <div class="custom-select" id="nationalityDropdown">
+                <div class="cs-trigger">
+                    <span class="cs-label">Toutes les nationalités</span>
+                    <span class="cs-arrow">▾</span>
+                </div>
+                <div class="cs-panel">
+                    <input class="cs-search" type="text" placeholder="Rechercher...">
+                    <ul class="cs-list"></ul>
+                </div>
+            </div>
+
+            <div class="custom-select" id="positionDropdown">
+                <div class="cs-trigger">
+                    <span class="cs-label">Tous les postes</span>
+                    <span class="cs-arrow">▾</span>
+                </div>
+                <div class="cs-panel">
+                    <input class="cs-search" type="text" placeholder="Rechercher...">
+                    <ul class="cs-list"></ul>
+                </div>
+            </div>
+        </div>
+
+        <input type="text" id="searchInput" placeholder="Rechercher un joueur...">
+    </div>
+
+    <div class="table-header">
+        <div class="header-item" onclick="sortPlayers('name')">
+            Nom <span class="sort-arrow" id="arrow-name"></span>
+        </div>
+        <div class="header-item" onclick="sortPlayers('club')">
+            Club <span class="sort-arrow" id="arrow-club"></span>
+        </div>
+        <div class="header-item" onclick="sortPlayers('value')">
+            Valeur <span class="sort-arrow" id="arrow-value"></span>
+        </div>
+        <div class="header-item" onclick="sortPlayers('foot')">
+            Pied <span class="sort-arrow" id="arrow-foot"></span>
+        </div>
+        <div class="header-item right" onclick="sortPlayers('age')">
+            Âge <span id="arrow-age"></span>
+        </div>
+        <div class="header-item right" onclick="sortPlayers('rating')">
+            Note <span id="arrow-rating"></span>
+        </div>
+        <div class="header-item right" onclick="sortPlayers('potential')">
+            Potentiel <span id="arrow-potential"></span>
+        </div>
+    </div>
+
+    <div id="playersGrid"></div>
+</div>
+
+<script src="../JS/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiche Joueur</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+<div class="container">
+    <div class="top-bar">
+        <button id="themeToggle">☀️ Mode Clair</button>
+    </div>
+
+    <a class="back-btn" href="./index.html">← Retour au répertoire</a>
+
+    <div id="playerCard" class="player-card"></div>
+
+    <div class="section-title">Historique des transferts</div>
+    <div class="tm-table-wrap">
+        <table class="tm-table">
+            <thead>
+                <tr>
+                    <th>Saison</th>
+                    <th>Date</th>
+                    <th>Club quitté</th>
+                    <th></th>
+                    <th>Club rejoint</th>
+                    <th class="tm-right">Valeur march.</th>
+                    <th class="tm-right">Montant</th>
+                    <th class="tm-right">Type</th>
+                </tr>
+            </thead>
+            <tbody id="transferTable">
+                <tr><td colspan="8" class="tm-loading">Chargement...</td></tr>
+            </tbody>
+            <tfoot id="transferFoot"></tfoot>
+        </table>
+    </div>
+</div>
+
+<script src="../JS/player.js"></script>
+</body>
+</html>
